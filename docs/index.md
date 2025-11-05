@@ -1,6 +1,6 @@
-# Bienvenue sur la Documentation de Augmented Analyst
+# Bienvenue sur la Documentation de Augmented Financial Analyst
 
-Ce site contient la documentation technique et le guide d'utilisation pour le projet **Augmented Analyst**.
+Ce site contient la documentation technique et le guide d'utilisation pour le projet **Augmented Financial Analyst**.
 
 Ce projet a pour but de fournir une plateforme centralisée et automatisée pour l'analyse de portefeuille financier.
 
