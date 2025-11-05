@@ -1,9 +1,9 @@
 # mkdocs.yml
 
 # Configuration générale du site
-site_name: "Augmented Analyst - Documentation"
+site_name: "Augmented Financial Analyst - Documentation"
 site_author: "Justin"
-site_description: "Documentation technique et utilisateur pour le projet Augmented Analyst."
+site_description: "Documentation technique et utilisateur pour le projet Augmented Financial Analyst."
 repo_url: "https://github.com/jngoufo/augmented-financial_analyst-docs"
 repo_name: "jngoufo/augmented-financial_analyst-docs"
 edit_uri: "edit/main/docs/"
@@ -19,6 +19,7 @@ nav:
 theme:
   name: material
   language: fr
+  logo: https://res.cloudinary.com/monwebmestre/image/upload/v1609352531/Monwebmestre.ca/Monwebmestre-Monogramme.png
   palette:
     - scheme: default
       primary: indigo
