@@ -1,0 +1,53 @@
+# mkdocs.yml
+
+# Configuration générale du site
+site_name: "Augmented Analyst - Documentation"
+site_author: "Justin"
+site_description: "Documentation technique et utilisateur pour le projet Augmented Analyst."
+repo_url: "https://github.com/jngoufo/augmented-financial_analyst-docs"
+repo_name: "jngoufo/augmented-financial_analyst-docs"
+edit_uri: "edit/main/docs/"
+
+# Structure de la navigation
+nav:
+  - 'Accueil': 'index.md'
+  - 'Chapitre 1: Vision du Projet': 'chapter1.md'
+  - 'Chapitre 2: Architecture Technique': 'chapter2.md'
+  - 'Chapitre 3: Guide d''Utilisation': 'chapter3.md'
+
+# Configuration du thème
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+# Extensions Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
